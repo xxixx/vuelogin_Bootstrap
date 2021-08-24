@@ -12,6 +12,9 @@ export default new Vuex.Store({
   isLogin : false,
   loginError : false
   },
+  computed:{
+...mapState([''])
+  },
   mutations: {
     //로그인 성공했을때
     loginSuccess(state){
